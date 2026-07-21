@@ -1,5 +1,5 @@
 // Package weather provides tools to forecast the weather.
-package weather 
+package weather
 
 var (
     // CurrentCondition represents the current weather conditon.
