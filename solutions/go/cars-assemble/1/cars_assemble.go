@@ -9,7 +9,7 @@ func CalculateWorkingCarsPerHour(productionRate int, successRate float64) float6
 // CalculateWorkingCarsPerMinute calculates how many working cars are
 // produced by the assembly line every minute.
 func CalculateWorkingCarsPerMinute(productionRate int, successRate float64) int {
-    var workingCarsPerHour = float64(productionRate) * successRate / 100
+	var workingCarsPerHour = float64(productionRate) * successRate / 100
 	return int(workingCarsPerHour / 60)
 }
 
